@@ -1,0 +1,497 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BACKUP	./dmbd_module/dmbd_raid1.h	5;"	d
+BACKUP	./dmbd_raid1.h	5;"	d
+BRK	./bestio/main.c	13;"	d	file:
+BUF_SIZE	./client.c	21;"	d	file:
+BUF_SIZE	./dmbd_hb.h	4;"	d
+BUILDSYSTEM_DIR	./Makefile	/^BUILDSYSTEM_DIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+BUILDSYSTEM_DIR	./bestio/Makefile	/^BUILDSYSTEM_DIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+BUILDSYSTEM_DIR	./dmbd_module/Makefile	/^BUILDSYSTEM_DIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+BUILDSYSTEM_DIR	./dmbd_module/jcm/Makefile	/^BUILDSYSTEM_DIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+CONNECT	./dmbd_ioctl.h	8;"	d
+CONNECT	./dmbd_module/dmbd_ioctl.h	6;"	d
+DEVICE_SECTOR_SIZE	./dmbd_module/jcm/vrd_2018_04_18.c	14;"	d	file:
+DISCONNECT	./dmbd_ioctl.h	7;"	d
+DISCONNECT	./dmbd_module/dmbd_ioctl.h	5;"	d
+DMBD_CONFIG_REMOTE	./dmbd_ioctl.h	/^}DMBD_CONFIG_REMOTE;$/;"	t	typeref:struct:__anon2
+DMBD_CONFIG_REMOTE	./dmbd_module/dmbd_ioctl.h	/^}DMBD_CONFIG_REMOTE;$/;"	t	typeref:struct:__anon9
+DMBD_CONFIG_REPLICA	./dmbd_ioctl.h	/^}DMBD_CONFIG_REPLICA;$/;"	t	typeref:struct:__anon3
+DMBD_CONFIG_REPLICA	./dmbd_module/dmbd_ioctl.h	/^}DMBD_CONFIG_REPLICA;$/;"	t	typeref:struct:__anon10
+DMBD_CONFIG_REPLICATION	./json_file.h	/^}DMBD_CONFIG_REPLICATION;$/;"	t	typeref:struct:__anon17
+DMBD_CONNECT_STATE	./dmbd_ioctl.h	/^}DMBD_CONNECT_STATE;$/;"	t	typeref:struct:__anon4
+DMBD_CONNECT_STATE	./dmbd_module/dmbd_ioctl.h	/^}DMBD_CONNECT_STATE;$/;"	t	typeref:struct:__anon11
+DMBD_DEV_MAJOR	./dmbd_main.c	28;"	d	file:
+DMBD_DEV_MAJOR	./dmbd_module/dmbd_main.c	28;"	d	file:
+DMBD_DEV_NAME	./dmbd_main.c	27;"	d	file:
+DMBD_DEV_NAME	./dmbd_module/dmbd_main.c	27;"	d	file:
+DMBD_INFORMATION	./json_file.h	/^}DMBD_INFORMATION;$/;"	t	typeref:struct:__anon16
+DMBD_IOCTL_MAGIC	./dmbd_ioctl.h	46;"	d
+DMBD_IOCTL_MAGIC	./dmbd_module/dmbd_ioctl.h	32;"	d
+DMBD_IOCTL_NAME	./dmbd_ioctl.h	6;"	d
+DMBD_IOCTL_NAME	./dmbd_module/dmbd_ioctl.h	4;"	d
+DMBD_IO_CTL_BACKUP	./dmbd_ioctl.h	56;"	d
+DMBD_IO_CTL_BACKUP	./dmbd_module/dmbd_ioctl.h	42;"	d
+DMBD_IO_CTL_CONFIG_LOAD	./dmbd_ioctl.h	51;"	d
+DMBD_IO_CTL_CONFIG_LOAD	./dmbd_module/dmbd_ioctl.h	37;"	d
+DMBD_IO_CTL_CONNECT_STATE	./dmbd_ioctl.h	52;"	d
+DMBD_IO_CTL_CONNECT_STATE	./dmbd_module/dmbd_ioctl.h	38;"	d
+DMBD_IO_CTL_EACH_SIZE	./dmbd_ioctl.h	54;"	d
+DMBD_IO_CTL_EACH_SIZE	./dmbd_module/dmbd_ioctl.h	40;"	d
+DMBD_IO_CTL_HB_DOWN	./dmbd_ioctl.h	48;"	d
+DMBD_IO_CTL_HB_DOWN	./dmbd_module/dmbd_ioctl.h	34;"	d
+DMBD_IO_CTL_MBPS	./dmbd_ioctl.h	55;"	d
+DMBD_IO_CTL_MBPS	./dmbd_module/dmbd_ioctl.h	41;"	d
+DMBD_IO_CTL_REMOTE_CONFIG	./dmbd_ioctl.h	49;"	d
+DMBD_IO_CTL_REMOTE_CONFIG	./dmbd_module/dmbd_ioctl.h	35;"	d
+DMBD_IO_CTL_REPLICA_CONFIG	./dmbd_ioctl.h	50;"	d
+DMBD_IO_CTL_REPLICA_CONFIG	./dmbd_module/dmbd_ioctl.h	36;"	d
+DMBD_IO_CTL_TOTAL_SIZE	./dmbd_ioctl.h	53;"	d
+DMBD_IO_CTL_TOTAL_SIZE	./dmbd_module/dmbd_ioctl.h	39;"	d
+DMBD_MBPS	./dmbd_ioctl.h	/^}DMBD_MBPS;$/;"	t	typeref:struct:__anon5
+DMBD_MBPS	./dmbd_module/dmbd_ioctl.h	/^}DMBD_MBPS;$/;"	t	typeref:struct:__anon12
+DMBD_NAME	./dmbd_ioctl.h	5;"	d
+DMBD_NAME	./dmbd_module/dmbd_ioctl.h	3;"	d
+DMBD_PARTIION	./dmbd_main.c	29;"	d	file:
+DMBD_PARTIION	./dmbd_module/dmbd_main.c	29;"	d	file:
+DMBD_REPLICA_NODE	./json_file.h	/^}DMBD_REPLICA_NODE;$/;"	t	typeref:struct:__anon18
+DMBD_SECTOR_SIZE	./dmbd_main.c	30;"	d	file:
+DMBD_SECTOR_SIZE	./dmbd_module/dmbd_main.c	30;"	d	file:
+IOCTL_DEV_MAJOR	./dmbd_main.c	25;"	d	file:
+IOCTL_DEV_MAJOR	./dmbd_module/dmbd_main.c	25;"	d	file:
+IOCTL_DEV_NAME	./dmbd_main.c	24;"	d	file:
+IOCTL_DEV_NAME	./dmbd_module/dmbd_main.c	24;"	d	file:
+IOCTL_PARTIION	./dmbd_main.c	26;"	d	file:
+IOCTL_PARTIION	./dmbd_module/dmbd_main.c	26;"	d	file:
+IP_SIZE	./dmbd_hb.h	5;"	d
+Ip_len	./dmbd_ioctl.h	9;"	d
+NOTBACKUP	./dmbd_module/dmbd_raid1.h	6;"	d
+NOTBACKUP	./dmbd_raid1.h	6;"	d
+NW_COUNT	./dmbd_hb.h	6;"	d
+ReadDMBDRemote	./json_file.c	/^DMBD_CONFIG_REMOTE* ReadDMBDRemote(char *filepath,int *len)$/;"	f
+ReadDMBDReplication	./json_file.c	/^DMBD_CONFIG_REPLICATION* ReadDMBDReplication(char *filepath,char *my_ip$/;"	f
+ReadNBDReplication	./json_file.c	/^DMBD_REPLICA_NODE* ReadNBDReplication(char *filepath,char *my_ip,int *node_len)$/;"	f
+ReadServerConfig	./json/test2.c	/^server_node* ReadServerConfig(char *filepath,int *len)$/;"	f
+ReadServerConfig	./json_file.c	/^server_node* ReadServerConfig(char *filepath,int *len)$/;"	f
+TARGET_MODULE	./Makefile	/^TARGET_MODULE :=dmbd$/;"	m
+TARGET_MODULE	./bestio/Makefile	/^TARGET_MODULE := go$/;"	m
+TARGET_MODULE	./dmbd_module/Makefile	/^TARGET_MODULE :=dmbd$/;"	m
+VRD_DEV_MAJOR	./bestio/ramdisk.c	14;"	d	file:
+VRD_DEV_NAME	./bestio/ramdisk.c	13;"	d	file:
+VRD_MAX_PARTITON	./bestio/ramdisk.c	19;"	d	file:
+VRD_SECTOR_SIZE	./bestio/ramdisk.c	16;"	d	file:
+VRD_SECTOR_TOTAL	./bestio/ramdisk.c	18;"	d	file:
+VRD_SIZE	./bestio/ramdisk.c	17;"	d	file:
+__DMBD_IOCTL__	./dmbd_ioctl.h	3;"	d
+__DMBD_RAID1__	./dmbd_module/dmbd_raid1.h	2;"	d
+__DMBD_RAID1__	./dmbd_raid1.h	2;"	d
+__DMBD__HB__	./dmbd_hb.h	2;"	d
+__RAMDISK__	./bestio/ramdisk.h	2;"	d
+__json_file__	./json_file.h	3;"	d
+__this_module	./bestio/go.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	./dmbd.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	./bestio/go.mod.c	/^__used$/;"	v	file:
+__used	./dmbd.mod.c	/^__used$/;"	v	file:
+all_dmbd_list	./dmbd_module/dmbd_raid1.h	/^	struct dmbd_dev **all_dmbd_list;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::dmbd_dev
+all_dmbd_list	./dmbd_raid1.h	/^	struct dmbd_dev **all_dmbd_list;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::dmbd_dev
+back_list	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct dev_list *dlist, *back_list;\/\/,*jcm_list;$/;"	v	typeref:struct:
+back_major	./bestio/main.c	/^static unsigned int back_major = 0;$/;"	v	file:
+back_minor	./bestio/main.c	/^static unsigned int back_minor = 0;$/;"	v	file:
+backup	./bestio/main.c	/^struct backup backup;$/;"	v	typeref:struct:backup
+backup	./bestio/main.c	/^struct backup {$/;"	s	file:
+backup_clear_queue	./bestio/main.c	/^int backup_clear_queue(struct backup_list *queue)$/;"	f
+backup_device	./bestio/main.c	/^struct backup_device {$/;"	s	file:
+backup_exit	./bestio/main.c	/^int backup_exit(void)$/;"	f
+backup_flag	./dmbd_module/dmbd_raid1.h	/^	unsigned long backup_flag;$/;"	m	struct:dmbd_conf
+backup_flag	./dmbd_raid1.h	/^	unsigned long backup_flag;$/;"	m	struct:dmbd_conf
+backup_init	./bestio/main.c	/^static void backup_init(void)$/;"	f	file:
+backup_list	./bestio/main.c	/^struct backup_list {$/;"	s	file:
+bdev	./bestio/main.c	/^	struct block_device *bdev;$/;"	m	struct:backup_device	typeref:struct:backup_device::block_device	file:
+bdev	./dmbd_module/dmbd_raid1.h	/^	struct block_device *bdev;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::block_device
+bdev	./dmbd_module/dmbd_raid1.h	/^	struct block_device* bdev;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::block_device
+bdev	./dmbd_module/dmbd_raid1.h	/^	struct block_device* bdev;$/;"	m	struct:dmbd_mirror	typeref:struct:dmbd_mirror::block_device
+bdev	./dmbd_module/jcm/vrd_2018_04_18.c	/^	struct block_device *bdev;$/;"	m	struct:dev_list	typeref:struct:dev_list::block_device	file:
+bdev	./dmbd_raid1.h	/^	struct block_device *bdev;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::block_device
+bdev	./dmbd_raid1.h	/^	struct block_device* bdev;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::block_device
+bdev	./dmbd_raid1.h	/^	struct block_device* bdev;$/;"	m	struct:dmbd_mirror	typeref:struct:dmbd_mirror::block_device
+bdops	./dmbd_module/jcm/vrd_2018_04_18.c	/^static struct block_device_operations bdops = {$/;"	v	typeref:struct:block_device_operations	file:
+bestio_backup_bio	./bestio/main.c	/^void bestio_backup_bio(struct bio *bio)$/;"	f
+bestio_backup_end_request	./bestio/main.c	/^static void bestio_backup_end_request(struct bio *bio)$/;"	f	file:
+bestio_backup_thread	./bestio/main.c	/^static int bestio_backup_thread(void * data)$/;"	f	file:
+bestio_complete	./dmbd_module/dmbd_raid1.c	/^	struct completion *bestio_complete;$/;"	m	struct:__anon13	typeref:struct:__anon13::completion	file:
+bestio_complete	./dmbd_raid1.c	/^	struct completion *bestio_complete;$/;"	m	struct:__anon7	typeref:struct:__anon7::completion	file:
+bestio_condition	./bestio/main.c	/^	unsigned long bestio_condition;$/;"	m	struct:backup	file:
+bestio_q_bio	./bestio/main.c	/^int bestio_q_bio(struct bio *bio, struct backup *meta_data)$/;"	f
+bi_end_io	./dmbd_module/dmbd_raid1.h	/^  bio_end_io_t    *bi_end_io;$/;"	m	struct:endio_complete
+bi_end_io	./dmbd_raid1.h	/^  bio_end_io_t    *bi_end_io;$/;"	m	struct:endio_complete
+bio	./bestio/main.c	/^	struct bio *bio;$/;"	m	struct:backup_list	typeref:struct:backup_list::bio	file:
+bio	./dmbd_main.c	/^	struct bio *bio;$/;"	m	struct:complete_bio	typeref:struct:complete_bio::bio	file:
+bio	./dmbd_module/dmbd_main.c	/^	struct bio *bio;$/;"	m	struct:complete_bio	typeref:struct:complete_bio::bio	file:
+bio_lists	./dmbd_module/dmbd_raid1.h	/^	struct bio_list bio_lists;$/;"	m	struct:dmbd_raid1_plug_cb	typeref:struct:dmbd_raid1_plug_cb::bio_list
+bio_lists	./dmbd_module/dmbd_raid1.h	/^  struct bio_list bio_lists;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::bio_list
+bio_lists	./dmbd_raid1.h	/^	struct bio_list bio_lists;$/;"	m	struct:dmbd_raid1_plug_cb	typeref:struct:dmbd_raid1_plug_cb::bio_list
+bio_lists	./dmbd_raid1.h	/^  struct bio_list bio_lists;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::bio_list
+bio_set	./dmbd_main.c	/^	struct bio_set *bio_set;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::bio_set	file:
+bio_set	./dmbd_module/dmbd_main.c	/^	struct bio_set *bio_set;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::bio_set	file:
+bio_set	./dmbd_module/dmbd_raid1.h	/^	struct bio_set *bio_set;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::bio_set
+bio_set	./dmbd_raid1.h	/^	struct bio_set *bio_set;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::bio_set
+bounds	./dmbd_hb.c	/^double bounds = 5000;$/;"	v
+bs	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct bio_set *bs=NULL; $/;"	v	typeref:struct:bio_set
+bu_clone	./dmbd_module/dmbd_raid1.c	/^struct bio *bu_clone(struct bio *bio)$/;"	f
+bu_clone	./dmbd_raid1.c	/^struct bio *bu_clone(struct bio *bio)$/;"	f
+bvecs	./dmbd_module/dmbd_raid1.h	/^	struct bio_vec *bvecs;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::bio_vec
+bvecs	./dmbd_raid1.h	/^	struct bio_vec *bvecs;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::bio_vec
+cb	./dmbd_module/dmbd_raid1.h	/^	struct blk_plug_cb cb;$/;"	m	struct:dmbd_raid1_plug_cb	typeref:struct:dmbd_raid1_plug_cb::blk_plug_cb
+cb	./dmbd_raid1.h	/^	struct blk_plug_cb cb;$/;"	m	struct:dmbd_raid1_plug_cb	typeref:struct:dmbd_raid1_plug_cb::blk_plug_cb
+check_my_node	./controller.c	/^server_node *check_my_node(server_node *serv,char *my_ip,int length)$/;"	f
+check_my_node	./controller_0717.c	/^server_node *check_my_node(server_node *serv,char *my_ip,int length)$/;"	f
+chunk_sector	./dmbd_main.c	/^	sector_t chunk_sector;$/;"	m	struct:vrd_dev	file:
+chunk_sector	./dmbd_module/dmbd_main.c	/^	sector_t chunk_sector;$/;"	m	struct:vrd_dev	file:
+chunk_size	./dmbd_main.c	/^static unsigned int	chunk_size=0;$/;"	v	file:
+chunk_size	./dmbd_module/dmbd_main.c	/^static unsigned int	chunk_size=0;$/;"	v	file:
+close_sock	./controller.c	/^int close_sock(int sock)$/;"	f
+close_sock	./controller_0717.c	/^int close_sock(int sock)$/;"	f
+cm_accept	./controller.c	/^int cm_accept(int sd, struct sockaddr_in address)$/;"	f
+cm_accept	./controller_0717.c	/^int cm_accept(int sd, struct sockaddr_in address)$/;"	f
+complete	./dmbd_module/dmbd_raid1.h	/^	struct completion *complete;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::completion
+complete	./dmbd_raid1.h	/^	struct completion *complete;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::completion
+complete_bio	./dmbd_main.c	/^struct complete_bio$/;"	s	file:
+complete_bio	./dmbd_module/dmbd_main.c	/^struct complete_bio$/;"	s	file:
+completions	./dmbd_module/dmbd_raid1.c	/^}completions;$/;"	t	typeref:struct:__anon13	file:
+completions	./dmbd_raid1.c	/^}completions;$/;"	t	typeref:struct:__anon7	file:
+conf	./dmbd_main.c	/^	struct dmbd_conf *conf;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::dmbd_conf	file:
+conf	./dmbd_module/dmbd_main.c	/^	struct dmbd_conf *conf;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::dmbd_conf	file:
+conf	./dmbd_module/dmbd_raid1.h	/^	struct dmbd_conf * conf;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::dmbd_conf
+conf	./dmbd_raid1.h	/^	struct dmbd_conf * conf;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::dmbd_conf
+controller_port	./json_file.h	/^	const char *controller_port;$/;"	m	struct:__anon15
+count	./controller.c	/^int count =0;$/;"	v
+count	./controller_0717.c	/^int count =0;$/;"	v
+create_receiver	./dmbd_hb.c	/^int create_receiver(server_node *server_node,int length)$/;"	f
+create_sender	./dmbd_hb.c	/^int create_sender(server_node *server_node,int length)$/;"	f
+data	./bestio/ramdisk.c	/^	unsigned char             *data;$/;"	m	struct:__anon6	file:
+data	./dmbd_module/dmbd_raid1.c	/^	unsigned char             *data;$/;"	m	struct:__anon14	file:
+data	./dmbd_raid1.c	/^	unsigned char             *data;$/;"	m	struct:__anon8	file:
+dev	./dmbd_module/dmbd_raid1.h	/^	struct dmbd_dev *dev;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::dmbd_dev
+dev	./dmbd_raid1.h	/^	struct dmbd_dev *dev;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::dmbd_dev
+dev	./json_file.h	/^	char dev[dev_len];$/;"	m	struct:__anon16
+dev_len	./dmbd_ioctl.h	10;"	d
+dev_len	./dmbd_module/dmbd_ioctl.h	8;"	d
+dev_list	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct dev_list{$/;"	s	file:
+dev_name	./dmbd_ioctl.h	/^	char dev_name[32];$/;"	m	struct:__anon2
+dev_name	./dmbd_module/dmbd_ioctl.h	/^	char dev_name[32];$/;"	m	struct:__anon9
+dev_name	./dmbd_module/dmbd_raid1.h	/^	char dev_name[32];$/;"	m	struct:dmbd_dev
+dev_name	./dmbd_module/dmbd_raid1.h	/^	char dev_name[32];$/;"	m	struct:dmbd_mirror
+dev_name	./dmbd_raid1.h	/^	char dev_name[32];$/;"	m	struct:dmbd_dev
+dev_name	./dmbd_raid1.h	/^	char dev_name[32];$/;"	m	struct:dmbd_mirror
+dev_size	./bestio/main.c	/^	unsigned long dev_size;$/;"	m	struct:backup_device	file:
+dev_size	./dmbd_ioctl.h	/^	unsigned long dev_size;$/;"	m	struct:__anon2
+dev_size	./dmbd_module/dmbd_ioctl.h	/^	unsigned long dev_size;$/;"	m	struct:__anon9
+dev_size	./dmbd_module/dmbd_raid1.h	/^	sector_t dev_size;$/;"	m	struct:dmbd_dev
+dev_size	./dmbd_module/jcm/vrd_2018_04_18.c	/^	unsigned long dev_size;$/;"	m	struct:dev_list	file:
+dev_size	./dmbd_raid1.h	/^	sector_t dev_size;$/;"	m	struct:dmbd_dev
+device	./bestio/main.c	/^	struct backup_device device;$/;"	m	struct:backup	typeref:struct:backup::backup_device	file:
+device	./bestio/ramdisk.c	/^EXPORT_SYMBOL(device);$/;"	v
+device	./bestio/ramdisk.c	/^vrd_device                    device;$/;"	v
+device_exit	./dmbd_module/jcm/vrd_2018_04_18.c	/^module_exit(device_exit);$/;"	v
+device_exit	./dmbd_module/jcm/vrd_2018_04_18.c	/^void device_exit(void)$/;"	f
+device_init	./dmbd_module/jcm/vrd_2018_04_18.c	/^int device_init(void)$/;"	f
+device_init	./dmbd_module/jcm/vrd_2018_04_18.c	/^module_init(device_init);$/;"	v
+device_ioctl	./dmbd_module/jcm/vrd_2018_04_18.c	/^static int device_ioctl(struct block_device *inode, fmode_t filp, unsigned cmd, unsigned long arg)$/;"	f	file:
+device_lock	./dmbd_module/dmbd_raid1.h	/^  spinlock_t device_lock;$/;"	m	struct:dmbd_conf
+device_lock	./dmbd_raid1.h	/^  spinlock_t device_lock;$/;"	m	struct:dmbd_conf
+device_make_request	./dmbd_module/jcm/vrd_2018_04_18.c	/^static blk_qc_t device_make_request(struct request_queue *q,struct bio *bio)$/;"	f	file:
+device_open	./dmbd_module/jcm/vrd_2018_04_18.c	/^static int device_open(struct block_device *inode, fmode_t filp)$/;"	f	file:
+device_release	./dmbd_module/jcm/vrd_2018_04_18.c	/^static void device_release(struct gendisk *inode, fmode_t filp)$/;"	f	file:
+disconnect	./dmbd_module/dmbd_raid1.h	/^	int disconnect;$/;"	m	struct:dmbd_dev
+disconnect	./dmbd_module/dmbd_raid1.h	/^	int disconnect;$/;"	m	struct:dmbd_mirror
+disconnect	./dmbd_raid1.h	/^	int disconnect;$/;"	m	struct:dmbd_dev
+disconnect	./dmbd_raid1.h	/^	int disconnect;$/;"	m	struct:dmbd_mirror
+disconnect	./json_file.h	/^	int disconnect;$/;"	m	struct:__anon15
+disk_mode	./dmbd_main.c	/^static char disk_mode[10];$/;"	v	file:
+disk_mode	./dmbd_module/dmbd_main.c	/^static char disk_mode[10];$/;"	v	file:
+disk_number	./dmbd_main.c	/^	int disk_number;$/;"	m	struct:vrd_dev	file:
+disk_number	./dmbd_module/dmbd_main.c	/^	int disk_number;$/;"	m	struct:vrd_dev	file:
+disk_total	./dmbd_main.c	/^static unsigned int	disk_total=0;$/;"	v	file:
+disk_total	./dmbd_module/dmbd_main.c	/^static unsigned int	disk_total=0;$/;"	v	file:
+dlist	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct dev_list *dlist, *back_list;\/\/,*jcm_list;$/;"	v	typeref:struct:dev_list
+dmbd-objs	./Makefile	/^dmbd-objs:=dmbd_main.o dmbd_raid1.o$/;"	m
+dmbd-objs	./dmbd_module/Makefile	/^dmbd-objs:=dmbd_main.o dmbd_raid1.o$/;"	m
+dmbd_bu_clone_endio	./dmbd_main.c	/^void dmbd_bu_clone_endio(struct bio *bio)$/;"	f
+dmbd_bu_clone_endio	./dmbd_module/dmbd_main.c	/^void dmbd_bu_clone_endio(struct bio *bio)$/;"	f
+dmbd_chunk_size	./controller.c	/^	const char *dmbd_chunk_size;$/;"	v
+dmbd_conf	./dmbd_module/dmbd_raid1.h	/^struct dmbd_conf{$/;"	s
+dmbd_conf	./dmbd_raid1.h	/^struct dmbd_conf{$/;"	s
+dmbd_dev	./dmbd_module/dmbd_raid1.h	/^struct dmbd_dev{$/;"	s
+dmbd_dev	./dmbd_raid1.h	/^struct dmbd_dev{$/;"	s
+dmbd_device	./dmbd_main.c	/^struct vrd_dev dmbd_device;$/;"	v	typeref:struct:vrd_dev
+dmbd_device	./dmbd_module/dmbd_main.c	/^struct vrd_dev dmbd_device;$/;"	v	typeref:struct:vrd_dev
+dmbd_fops	./dmbd_main.c	/^static struct block_device_operations dmbd_fops =$/;"	v	typeref:struct:block_device_operations	file:
+dmbd_fops	./dmbd_module/dmbd_main.c	/^static struct block_device_operations dmbd_fops =$/;"	v	typeref:struct:block_device_operations	file:
+dmbd_fops_ioctl	./dmbd_main.c	/^static int dmbd_fops_ioctl(struct block_device *inode, fmode_t mode, unsigned int cmd, unsigned long arg)$/;"	f	file:
+dmbd_fops_ioctl	./dmbd_module/dmbd_main.c	/^static int dmbd_fops_ioctl(struct block_device *inode, fmode_t mode, unsigned int cmd, unsigned long arg)$/;"	f	file:
+dmbd_fops_open	./dmbd_main.c	/^static int dmbd_fops_open(struct block_device *inode, fmode_t filp)$/;"	f	file:
+dmbd_fops_open	./dmbd_module/dmbd_main.c	/^static int dmbd_fops_open(struct block_device *inode, fmode_t filp)$/;"	f	file:
+dmbd_fops_release	./dmbd_main.c	/^static void dmbd_fops_release(struct gendisk *inode, fmode_t filp)$/;"	f	file:
+dmbd_fops_release	./dmbd_module/dmbd_main.c	/^static void dmbd_fops_release(struct gendisk *inode, fmode_t filp)$/;"	f	file:
+dmbd_ioctl_fops	./dmbd_main.c	/^static struct block_device_operations dmbd_ioctl_fops =$/;"	v	typeref:struct:block_device_operations	file:
+dmbd_ioctl_fops	./dmbd_module/dmbd_main.c	/^static struct block_device_operations dmbd_ioctl_fops =$/;"	v	typeref:struct:block_device_operations	file:
+dmbd_linear_make_request	./dmbd_main.c	/^static blk_qc_t dmbd_linear_make_request(struct request_queue *q , struct bio *bio)$/;"	f	file:
+dmbd_linear_make_request	./dmbd_module/dmbd_main.c	/^static blk_qc_t dmbd_linear_make_request(struct request_queue *q , struct bio *bio)$/;"	f	file:
+dmbd_mirror	./dmbd_module/dmbd_raid1.h	/^struct dmbd_mirror{$/;"	s
+dmbd_mirror	./dmbd_raid1.h	/^struct dmbd_mirror{$/;"	s
+dmbd_mode	./controller.c	/^	const char *dmbd_mode;$/;"	v
+dmbd_r1bio	./dmbd_module/dmbd_raid1.h	/^struct dmbd_r1bio{$/;"	s
+dmbd_r1bio	./dmbd_raid1.h	/^struct dmbd_r1bio{$/;"	s
+dmbd_raid1_alloc_pages	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_alloc_pages(struct bio *bio, struct dmbd_r1bio *r1_bio)$/;"	f
+dmbd_raid1_alloc_pages	./dmbd_raid1.c	/^void dmbd_raid1_alloc_pages(struct bio *bio, struct dmbd_r1bio *r1_bio)$/;"	f
+dmbd_raid1_end_write_reqeust	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_end_write_reqeust(struct bio *bio)$/;"	f
+dmbd_raid1_end_write_reqeust	./dmbd_raid1.c	/^void dmbd_raid1_end_write_reqeust(struct bio *bio)$/;"	f
+dmbd_raid1_end_write_reqeust_disconnect	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_end_write_reqeust_disconnect(struct bio *bio)$/;"	f
+dmbd_raid1_end_write_reqeust_disconnect	./dmbd_raid1.c	/^void dmbd_raid1_end_write_reqeust_disconnect(struct bio *bio)$/;"	f
+dmbd_raid1_plug	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_plug(struct blk_plug_cb *cb , bool from_schedule)$/;"	f
+dmbd_raid1_plug	./dmbd_raid1.c	/^void dmbd_raid1_plug(struct blk_plug_cb *cb , bool from_schedule)$/;"	f
+dmbd_raid1_plug_cb	./dmbd_module/dmbd_raid1.h	/^struct dmbd_raid1_plug_cb {$/;"	s
+dmbd_raid1_plug_cb	./dmbd_raid1.h	/^struct dmbd_raid1_plug_cb {$/;"	s
+dmbd_raid1_thread	./dmbd_module/dmbd_raid1.h	/^struct dmbd_raid1_thread{$/;"	s
+dmbd_raid1_thread	./dmbd_raid1.h	/^struct dmbd_raid1_thread{$/;"	s
+dmbd_raid1_thread_func	./dmbd_module/dmbd_raid1.c	/^int dmbd_raid1_thread_func(void * arg)$/;"	f
+dmbd_raid1_thread_func	./dmbd_raid1.c	/^int dmbd_raid1_thread_func(void * arg)$/;"	f
+dmbd_raid1_wakeup_thread	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_wakeup_thread(struct dmbd_raid1_thread *thread)$/;"	f
+dmbd_raid1_wakeup_thread	./dmbd_raid1.c	/^void dmbd_raid1_wakeup_thread(struct dmbd_raid1_thread *thread)$/;"	f
+dmbd_raid1_write_request	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_write_request(struct bio *bio,struct dmbd_dev *ddev,struct completion *complete)$/;"	f
+dmbd_raid1_write_request	./dmbd_raid1.c	/^void dmbd_raid1_write_request(struct bio *bio,struct dmbd_dev *ddev,struct completion *complete)$/;"	f
+dmbd_raid1_write_request_disconnect	./dmbd_module/dmbd_raid1.c	/^void dmbd_raid1_write_request_disconnect(struct bio *bio,struct dmbd_dev *ddev)$/;"	f
+dmbd_raid1_write_request_disconnect	./dmbd_raid1.c	/^void dmbd_raid1_write_request_disconnect(struct bio *bio,struct dmbd_dev *ddev)$/;"	f
+dmbd_stripe_make_request	./dmbd_main.c	/^static blk_qc_t dmbd_stripe_make_request(struct request_queue *q , struct bio *bio)$/;"	f	file:
+dmbd_stripe_make_request	./dmbd_module/dmbd_main.c	/^static blk_qc_t dmbd_stripe_make_request(struct request_queue *q , struct bio *bio)$/;"	f	file:
+dmbd_test_end_io	./dmbd_module/dmbd_raid1.c	/^void dmbd_test_end_io(struct bio *bio)$/;"	f
+dmbd_test_end_io	./dmbd_raid1.c	/^void dmbd_test_end_io(struct bio *bio)$/;"	f
+end_complete	./dmbd_main.c	/^	struct completion *end_complete;$/;"	m	struct:complete_bio	typeref:struct:complete_bio::completion	file:
+end_complete	./dmbd_module/dmbd_main.c	/^	struct completion *end_complete;$/;"	m	struct:complete_bio	typeref:struct:complete_bio::completion	file:
+end_complete	./dmbd_module/dmbd_raid1.h	/^  struct completion *end_complete;$/;"	m	struct:endio_complete	typeref:struct:endio_complete::completion
+end_complete	./dmbd_raid1.h	/^  struct completion *end_complete;$/;"	m	struct:endio_complete	typeref:struct:endio_complete::completion
+end_sector	./dmbd_module/dmbd_raid1.h	/^	sector_t end_sector;$/;"	m	struct:dmbd_dev
+end_sector	./dmbd_raid1.h	/^	sector_t end_sector;$/;"	m	struct:dmbd_dev
+endio_complete	./dmbd_module/dmbd_raid1.h	/^struct endio_complete$/;"	s
+endio_complete	./dmbd_raid1.h	/^struct endio_complete$/;"	s
+first_dev	./dmbd_module/jcm/vrd_2018_04_18.c	/^char first_dev[16];$/;"	v
+flag	./dmbd_module/dmbd_raid1.h	/^	unsigned long flag;$/;"	m	struct:dmbd_raid1_thread
+flag	./dmbd_raid1.h	/^	unsigned long flag;$/;"	m	struct:dmbd_raid1_thread
+gateway	./dmbd_hb.c	/^char *gateway;$/;"	v
+gateway	./json_file.h	/^	const char *gateway;  $/;"	m	struct:__anon15
+gd	./bestio/ramdisk.c	/^	struct gendisk              *gd;$/;"	m	struct:__anon6	typeref:struct:__anon6::gendisk	file:
+gd	./dmbd_module/dmbd_raid1.c	/^	struct gendisk              *gd;$/;"	m	struct:__anon14	typeref:struct:__anon14::gendisk	file:
+gd	./dmbd_module/jcm/vrd_2018_04_18.c	/^	struct gendisk *gd;$/;"	m	struct:root_device_t	typeref:struct:root_device_t::gendisk	file:
+gd	./dmbd_raid1.c	/^	struct gendisk              *gd;$/;"	m	struct:__anon8	typeref:struct:__anon8::gendisk	file:
+get_ip	./controller.c	/^void get_ip(int socket, char *buffer)$/;"	f
+get_ip	./controller_0717.c	/^void get_ip(int socket, char *buffer)$/;"	f
+go-objs	./bestio/Makefile	/^go-objs := main.o ramdisk.o$/;"	m
+hb_alive	./dmbd_hb.c	/^static int hb_alive = 0;$/;"	v	file:
+hb_exit	./dmbd_hb.c	/^int hb_exit(void){$/;"	f
+hb_port	./json_file.h	/^	const char *hb_port;$/;"	m	struct:__anon15
+hb_receive	./dmbd_hb.c	/^int hb_receive(clock_t hb_c,server_node *con_arr, int con_len)$/;"	f
+hb_receiver	./dmbd_hb.c	/^void *hb_receiver(void *serv_node)$/;"	f
+hb_receiver_tid	./dmbd_hb.c	/^static pthread_t        hb_receiver_tid;$/;"	v	file:
+hb_recv_init	./dmbd_hb.c	/^int hb_recv_init(void)$/;"	f
+hb_send	./dmbd_hb.c	/^int hb_send(server_node *con_arr, int con_len)$/;"	f
+hb_sender	./dmbd_hb.c	/^void *hb_sender(void *serv_node)$/;"	f
+hb_sender_tid	./dmbd_hb.c	/^static pthread_t        hb_sender_tid;$/;"	v	file:
+hb_start	./dmbd_hb.c	/^int hb_start(void)$/;"	f
+hb_time	./json_file.h	/^	clock_t hb_time;$/;"	m	struct:__anon15
+help	./dmbd_module/ioctl_test.c	/^void help()$/;"	f
+help	./ioctl_test.c	/^void help()$/;"	f
+in_cksum	./dmbd_hb.c	/^int in_cksum (u_short *addr, unsigned int len)$/;"	f
+ioctl_dev	./dmbd_main.c	/^struct ioctl_dev$/;"	s	file:
+ioctl_dev	./dmbd_module/dmbd_main.c	/^struct ioctl_dev$/;"	s	file:
+ioctl_device	./dmbd_main.c	/^struct ioctl_dev ioctl_device;$/;"	v	typeref:struct:ioctl_dev
+ioctl_device	./dmbd_module/dmbd_main.c	/^struct ioctl_dev ioctl_device;$/;"	v	typeref:struct:ioctl_dev
+ioctl_gd	./dmbd_main.c	/^	struct gendisk			 *ioctl_gd;$/;"	m	struct:ioctl_dev	typeref:struct:ioctl_dev::gendisk	file:
+ioctl_gd	./dmbd_module/dmbd_main.c	/^	struct gendisk			 *ioctl_gd;$/;"	m	struct:ioctl_dev	typeref:struct:ioctl_dev::gendisk	file:
+ioctl_queue	./dmbd_main.c	/^	struct request_queue *ioctl_queue;$/;"	m	struct:ioctl_dev	typeref:struct:ioctl_dev::request_queue	file:
+ioctl_queue	./dmbd_module/dmbd_main.c	/^	struct request_queue *ioctl_queue;$/;"	m	struct:ioctl_dev	typeref:struct:ioctl_dev::request_queue	file:
+ip	./dmbd_hb.c	/^char *ip;$/;"	v
+ip	./dmbd_ioctl.h	/^	char ip[16];$/;"	m	struct:__anon2
+ip	./dmbd_ioctl.h	/^	char ip[16];$/;"	m	struct:__anon3
+ip	./dmbd_ioctl.h	/^	char ip[16];$/;"	m	struct:__anon4
+ip	./dmbd_module/dmbd_ioctl.h	/^	char ip[16];$/;"	m	struct:__anon10
+ip	./dmbd_module/dmbd_ioctl.h	/^	char ip[16];$/;"	m	struct:__anon11
+ip	./dmbd_module/dmbd_ioctl.h	/^	char ip[16];$/;"	m	struct:__anon9
+ip	./dmbd_module/dmbd_raid1.h	/^	char ip[16];$/;"	m	struct:dmbd_dev
+ip	./dmbd_module/dmbd_raid1.h	/^	char ip[16];$/;"	m	struct:dmbd_mirror
+ip	./dmbd_raid1.h	/^	char ip[16];$/;"	m	struct:dmbd_dev
+ip	./dmbd_raid1.h	/^	char ip[16];$/;"	m	struct:dmbd_mirror
+ip	./json_file.h	/^	char ip[Ip_len];$/;"	m	struct:__anon16
+ip	./json_file.h	/^	const char *ip;$/;"	m	struct:__anon15
+ip	./json_file.h	/^     char ip[Ip_len];$/;"	m	struct:__anon17
+ip_len	./dmbd_module/dmbd_ioctl.h	7;"	d
+kq_wait_bestio	./bestio/main.c	/^	wait_queue_head_t kq_wait_bestio;$/;"	m	struct:backup	file:
+len	./dmbd_hb.h	/^     int len;$/;"	m	struct:__anon1
+lh	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct dev_list *lh;$/;"	v	typeref:struct:dev_list
+linear_find_dev	./dmbd_main.c	/^static struct dmbd_dev * linear_find_dev(sector_t sector)$/;"	f	file:
+linear_find_dev	./dmbd_module/dmbd_main.c	/^static struct dmbd_dev * linear_find_dev(sector_t sector)$/;"	f	file:
+list	./bestio/main.c	/^	struct list_head list;$/;"	m	struct:backup_list	typeref:struct:backup_list::list_head	file:
+list	./dmbd_module/dmbd_raid1.h	/^	struct list_head list;$/;"	m	struct:dmbd_mirror	typeref:struct:dmbd_mirror::list_head
+list	./dmbd_module/jcm/vrd_2018_04_18.c	/^	struct list_head list;$/;"	m	struct:dev_list	typeref:struct:dev_list::list_head	file:
+list	./dmbd_raid1.h	/^	struct list_head list;$/;"	m	struct:dmbd_mirror	typeref:struct:dmbd_mirror::list_head
+local_ip	./json_file.h	/^	char local_ip[16];$/;"	m	struct:__anon18
+local_mirror	./dmbd_module/dmbd_raid1.h	/^	struct dmbd_mirror *local_mirror;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::dmbd_mirror
+local_mirror	./dmbd_raid1.h	/^	struct dmbd_mirror *local_mirror;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::dmbd_mirror
+main	./client.c	/^int main(int argc, char **argv)$/;"	f
+main	./controller.c	/^int main (int agrc, char* argv[])$/;"	f
+main	./controller_0717.c	/^int main (int agrc, char* argv[])$/;"	f
+main	./dmbd_module/ioctl_test.c	/^void main(int argc,char **argv)$/;"	f
+main	./dmbd_module/mount/main.c	/^void main()$/;"	f
+main	./ex.c	/^int main(void)$/;"	f
+main	./ex2.c	/^int main(void)$/;"	f
+main	./ex3.c	/^int main(void)$/;"	f
+main	./ioctl_test.c	/^void main(int argc,char **argv)$/;"	f
+main	./json/test.c	/^int main(void){$/;"	f
+main	./json/test2.c	/^		int main(void){$/;"	f
+major	./bestio/main.c	/^	unsigned int major;$/;"	m	struct:backup_device	file:
+max_queued_requests	./dmbd_module/dmbd_raid1.c	/^static int max_queued_requests = 1048;$/;"	v	file:
+max_queued_requests	./dmbd_raid1.c	/^static int max_queued_requests = 1048;$/;"	v	file:
+mbps	./dmbd_main.c	/^	DMBD_MBPS mbps;$/;"	m	struct:vrd_dev	file:
+mbps	./dmbd_module/dmbd_main.c	/^	DMBD_MBPS mbps;$/;"	m	struct:vrd_dev	file:
+memory_size	./bestio/main.c	/^static unsigned long memory_size = 0;$/;"	v	file:
+minor	./bestio/main.c	/^	unsigned int minor;$/;"	m	struct:backup_device	file:
+mirror_list	./dmbd_module/dmbd_raid1.h	/^	struct list_head mirror_list;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::list_head
+mirror_list	./dmbd_raid1.h	/^	struct list_head mirror_list;$/;"	m	struct:dmbd_dev	typeref:struct:dmbd_dev::list_head
+mj_exit	./dmbd_main.c	/^module_exit(mj_exit);$/;"	v
+mj_exit	./dmbd_main.c	/^void mj_exit(void)$/;"	f
+mj_exit	./dmbd_module/dmbd_main.c	/^module_exit(mj_exit);$/;"	v
+mj_exit	./dmbd_module/dmbd_main.c	/^void mj_exit(void)$/;"	f
+mj_init	./dmbd_main.c	/^int mj_init(void)$/;"	f
+mj_init	./dmbd_main.c	/^module_init(mj_init);$/;"	v
+mj_init	./dmbd_module/dmbd_main.c	/^int mj_init(void)$/;"	f
+mj_init	./dmbd_module/dmbd_main.c	/^module_init(mj_init);$/;"	v
+mj_vrd_init	./dmbd_main.c	/^int mj_vrd_init(void)$/;"	f
+mj_vrd_init	./dmbd_module/dmbd_main.c	/^int mj_vrd_init(void)$/;"	f
+msg_flag	./controller_0717.c	/^int msg_flag = 0;$/;"	v
+msg_send	./client.c	/^int msg_send(char *ip, const char *port)$/;"	f
+msg_send	./controller.c	/^int msg_send(server_node *con_arr, int con_len, char *buf)$/;"	f
+msg_send	./controller_0717.c	/^int msg_send(server_node *con_arr, int con_len, char *buf)$/;"	f
+my_dev	./dmbd_main.c	/^	char   my_dev[32];$/;"	m	struct:vrd_dev	file:
+my_dev	./dmbd_module/dmbd_main.c	/^	char   my_dev[32];$/;"	m	struct:vrd_dev	file:
+my_disk	./dmbd_main.c	/^	struct dmbd_dev *my_disk;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::dmbd_dev	file:
+my_disk	./dmbd_module/dmbd_main.c	/^	struct dmbd_dev *my_disk;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::dmbd_dev	file:
+my_exit	./bestio/main.c	/^module_exit(my_exit);$/;"	v
+my_exit	./bestio/main.c	/^static void my_exit(void)$/;"	f	file:
+my_init	./bestio/main.c	/^module_init(my_init);$/;"	v
+my_init	./bestio/main.c	/^static int my_init(void)$/;"	f	file:
+my_ip	./dmbd_main.c	/^	char   my_ip[16];$/;"	m	struct:vrd_dev	file:
+my_ip	./dmbd_module/dmbd_main.c	/^	char   my_ip[16];$/;"	m	struct:vrd_dev	file:
+my_node	./controller.c	/^server_node *my_node;$/;"	v
+my_node	./controller_0717.c	/^server_node *my_node;$/;"	v
+nbd_export	./dmbd_ioctl.h	/^	char nbd_export[32];$/;"	m	struct:__anon2
+nbd_export	./json_file.h	/^	 char nbd_export[32];$/;"	m	struct:__anon16
+nbd_port	./dmbd_ioctl.h	/^	char nbd_port[16];$/;"	m	struct:__anon2
+nbd_port	./json_file.h	/^	 char nbd_port[16];$/;"	m	struct:__anon16
+nomarl_endio	./dmbd_module/dmbd_raid1.c	/^void nomarl_endio(struct bio *bio)$/;"	f
+nomarl_endio	./dmbd_raid1.c	/^void nomarl_endio(struct bio *bio)$/;"	f
+nu_pinger	./dmbd_hb.c	/^int nu_pinger(const char *address, int count, int pr_wait, int pr_interval)$/;"	f
+nu_select	./dmbd_hb.c	/^int nu_select(int pr_fd, int pr_sec, int pr_usec)$/;"	f
+obj-m	./Makefile	/^obj-m := $(TARGET_MODULE).o$/;"	m
+obj-m	./bestio/Makefile	/^obj-m := $(TARGET_MODULE).o$/;"	m
+obj-m	./dmbd_module/Makefile	/^obj-m := $(TARGET_MODULE).o$/;"	m
+obj-m	./dmbd_module/jcm/Makefile	/^obj-m := vrd_2018_04_18.o$/;"	m
+p	./dmbd_module/dmbd_raid1.h	/^	struct bio *p ; $/;"	m	struct:endio_complete	typeref:struct:endio_complete::bio
+p	./dmbd_raid1.h	/^	struct bio *p ; $/;"	m	struct:endio_complete	typeref:struct:endio_complete::bio
+pending_count	./dmbd_module/dmbd_raid1.h	/^	int pending_count;$/;"	m	struct:dmbd_conf
+pending_count	./dmbd_raid1.h	/^	int pending_count;$/;"	m	struct:dmbd_conf
+port	./dmbd_hb.c	/^char *port;$/;"	v
+q_sem_mutex	./bestio/main.c	/^	struct semaphore q_sem_mutex;$/;"	m	struct:backup	typeref:struct:backup::semaphore	file:
+queue	./bestio/main.c	/^	struct backup_list *queue;$/;"	m	struct:backup	typeref:struct:backup::backup_list	file:
+queue	./bestio/ramdisk.c	/^	struct request_queue    *queue;$/;"	m	struct:__anon6	typeref:struct:__anon6::request_queue	file:
+queue	./dmbd_module/dmbd_raid1.c	/^	struct request_queue    *queue;$/;"	m	struct:__anon14	typeref:struct:__anon14::request_queue	file:
+queue	./dmbd_module/jcm/vrd_2018_04_18.c	/^	struct request_queue *queue;$/;"	m	struct:root_device_t	typeref:struct:root_device_t::request_queue	file:
+queue	./dmbd_raid1.c	/^	struct request_queue    *queue;$/;"	m	struct:__anon8	typeref:struct:__anon8::request_queue	file:
+raid_master_bio	./dmbd_module/dmbd_raid1.h	/^	struct bio *raid_master_bio;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::bio
+raid_master_bio	./dmbd_raid1.h	/^	struct bio *raid_master_bio;$/;"	m	struct:dmbd_r1bio	typeref:struct:dmbd_r1bio::bio
+read_mbps	./dmbd_ioctl.h	/^	unsigned long read_mbps;$/;"	m	struct:__anon5
+read_mbps	./dmbd_module/dmbd_ioctl.h	/^	unsigned long read_mbps;$/;"	m	struct:__anon12
+recv_addr	./dmbd_hb.c	/^struct sockaddr_in recv_addr;$/;"	v	typeref:struct:sockaddr_in
+recv_data	./dmbd_hb.c	/^char* recv_data = NULL;$/;"	v
+recv_icmp	./dmbd_hb.c	/^int recv_icmp(int fd, int dst, int id, int seqn, int *count, int wait)$/;"	f
+recv_ret	./dmbd_hb.c	/^int recv_ret = 0;$/;"	v
+recv_socket	./dmbd_hb.c	/^int recv_socket = -1;$/;"	v
+remaining	./dmbd_module/dmbd_raid1.c	/^	atomic_t remaining;$/;"	m	struct:__anon13	file:
+remaining	./dmbd_module/dmbd_raid1.h	/^	atomic_t remaining;$/;"	m	struct:dmbd_r1bio
+remaining	./dmbd_raid1.c	/^	atomic_t remaining;$/;"	m	struct:__anon7	file:
+remaining	./dmbd_raid1.h	/^	atomic_t remaining;$/;"	m	struct:dmbd_r1bio
+replica_config	./json_file.h	/^	DMBD_CONFIG_REPLICATION *replica_config;$/;"	m	struct:__anon18
+replica_dev	./dmbd_ioctl.h	/^	char replica_dev[32];$/;"	m	struct:__anon3
+replica_dev	./dmbd_module/dmbd_ioctl.h	/^	char replica_dev[32];$/;"	m	struct:__anon10
+replica_info	./json_file.h	/^     DMBD_INFORMATION *replica_info;$/;"	m	struct:__anon17
+replica_info_length	./json_file.h	/^	int replica_info_length;$/;"	m	struct:__anon18
+replica_ip	./dmbd_ioctl.h	/^	char replica_ip[16];$/;"	m	struct:__anon3
+replica_ip	./dmbd_module/dmbd_ioctl.h	/^	char replica_ip[16];$/;"	m	struct:__anon10
+replica_length	./json_file.h	/^	int replica_length;$/;"	m	struct:__anon18
+request_process	./dmbd_module/dmbd_raid1.c	/^void request_process(struct dmbd_conf *config)$/;"	f
+request_process	./dmbd_raid1.c	/^void request_process(struct dmbd_conf *config)$/;"	f
+root_device	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct root_device_t root_device;$/;"	v	typeref:struct:root_device_t
+root_device	./dmbd_module/jcm/vrd_2018_04_18.c	/^}root_device;$/;"	v	typeref:struct:root_device_t
+root_device_t	./dmbd_module/jcm/vrd_2018_04_18.c	/^struct root_device_t{$/;"	s	file:
+run	./dmbd_module/dmbd_raid1.h	/^	void (*run) (struct dmbd_conf *config);$/;"	m	struct:dmbd_raid1_thread
+run	./dmbd_raid1.h	/^	void (*run) (struct dmbd_conf *config);$/;"	m	struct:dmbd_raid1_thread
+second_dev	./dmbd_module/jcm/vrd_2018_04_18.c	/^char second_dev[16];$/;"	v
+send_icmp	./dmbd_hb.c	/^int send_icmp(int fd, int dst, int id, int seqn, char *data, int size)$/;"	f
+sender_addr	./dmbd_hb.c	/^struct sockaddr_in sender_addr;$/;"	v	typeref:struct:sockaddr_in
+serv_con	./dmbd_hb.h	/^     server_node *serv_con;$/;"	m	struct:__anon1
+serv_n	./dmbd_hb.h	/^}serv_n;$/;"	t	typeref:struct:__anon1
+server_len	./controller.c	/^int server_len;$/;"	v
+server_len	./controller_0717.c	/^int server_len;$/;"	v
+server_node	./json_file.h	/^}server_node;$/;"	t	typeref:struct:__anon15
+size	./bestio/ramdisk.c	/^	unsigned long long size;$/;"	m	struct:__anon6	file:
+size	./dmbd_module/dmbd_raid1.c	/^	unsigned long long size;$/;"	m	struct:__anon14	file:
+size	./dmbd_raid1.c	/^	unsigned long long size;$/;"	m	struct:__anon8	file:
+state	./dmbd_ioctl.h	/^	unsigned int state;$/;"	m	struct:__anon4
+state	./dmbd_module/dmbd_ioctl.h	/^	unsigned int state;$/;"	m	struct:__anon11
+thread	./dmbd_module/dmbd_raid1.h	/^  struct dmbd_raid1_thread *thread;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::dmbd_raid1_thread
+thread	./dmbd_raid1.h	/^  struct dmbd_raid1_thread *thread;$/;"	m	struct:dmbd_conf	typeref:struct:dmbd_conf::dmbd_raid1_thread
+thread_complete	./dmbd_module/dmbd_raid1.c	/^	struct completion *thread_complete;$/;"	m	struct:__anon13	typeref:struct:__anon13::completion	file:
+thread_complete	./dmbd_raid1.c	/^	struct completion *thread_complete;$/;"	m	struct:__anon7	typeref:struct:__anon7::completion	file:
+thread_task	./bestio/main.c	/^	struct task_struct *thread_task;$/;"	m	struct:backup	typeref:struct:backup::task_struct	file:
+time_out	./dmbd_module/dmbd_raid1.h	/^	unsigned long time_out;$/;"	m	struct:dmbd_raid1_thread
+time_out	./dmbd_raid1.h	/^	unsigned long time_out;$/;"	m	struct:dmbd_raid1_thread
+total_list	./dmbd_module/jcm/vrd_2018_04_18.c	/^	struct list_head total_list;$/;"	m	struct:root_device_t	typeref:struct:root_device_t::list_head	file:
+total_size	./dmbd_main.c	/^	sector_t   total_size;$/;"	m	struct:vrd_dev	file:
+total_size	./dmbd_module/dmbd_main.c	/^	sector_t   total_size;$/;"	m	struct:vrd_dev	file:
+total_size	./dmbd_module/jcm/vrd_2018_04_18.c	/^	unsigned int total_size;$/;"	m	struct:root_device_t	file:
+tsdiff_in_bounds	./dmbd_hb.c	/^int tsdiff_in_bounds(struct timespec ts1, struct timespec ts2, unsigned long bounds, int *diff)$/;"	f
+tsk	./dmbd_module/dmbd_raid1.h	/^	struct task_struct *tsk;$/;"	m	struct:dmbd_raid1_thread	typeref:struct:dmbd_raid1_thread::task_struct
+tsk	./dmbd_raid1.h	/^	struct task_struct *tsk;$/;"	m	struct:dmbd_raid1_thread	typeref:struct:dmbd_raid1_thread::task_struct
+unsuccess_flag	./controller.c	/^int unsuccess_flag=0;$/;"	v
+vcnt	./dmbd_module/dmbd_raid1.h	/^	unsigned int vcnt;$/;"	m	struct:dmbd_r1bio
+vcnt	./dmbd_raid1.h	/^	unsigned int vcnt;$/;"	m	struct:dmbd_r1bio
+vrd_default_hook_request	./bestio/ramdisk.c	/^static void vrd_default_hook_request(struct bio* bio)$/;"	f	file:
+vrd_dev	./dmbd_main.c	/^struct vrd_dev{$/;"	s	file:
+vrd_dev	./dmbd_module/dmbd_main.c	/^struct vrd_dev{$/;"	s	file:
+vrd_device	./bestio/ramdisk.c	/^} vrd_device;$/;"	t	typeref:struct:__anon6	file:
+vrd_device	./dmbd_module/dmbd_raid1.c	/^} vrd_device;$/;"	t	typeref:struct:__anon14	file:
+vrd_device	./dmbd_raid1.c	/^} vrd_device;$/;"	t	typeref:struct:__anon8	file:
+vrd_exit	./bestio/ramdisk.c	/^void vrd_exit(void)$/;"	f
+vrd_fops	./bestio/ramdisk.c	/^static struct block_device_operations vrd_fops =$/;"	v	typeref:struct:block_device_operations	file:
+vrd_gd	./dmbd_main.c	/^	struct gendisk			 *vrd_gd;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::gendisk	file:
+vrd_gd	./dmbd_module/dmbd_main.c	/^	struct gendisk			 *vrd_gd;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::gendisk	file:
+vrd_get_bio_address	./bestio/ramdisk.c	/^EXPORT_SYMBOL(vrd_get_bio_address);$/;"	v
+vrd_get_bio_address	./bestio/ramdisk.c	/^unsigned char *vrd_get_bio_address(struct bio *bio)$/;"	f
+vrd_hook_fn	./bestio/ramdisk.h	/^typedef void (*vrd_hook_fn)(struct bio *bio);$/;"	t
+vrd_hook_request	./bestio/ramdisk.c	/^static vrd_hook_fn vrd_hook_request = vrd_default_hook_request;$/;"	v	file:
+vrd_init	./bestio/ramdisk.c	/^int vrd_init(char *name, unsigned long long size)$/;"	f
+vrd_ioctl	./bestio/ramdisk.c	/^static int vrd_ioctl(struct block_device *inode, fmode_t mode, unsigned int cmd, unsigned long arg)$/;"	f	file:
+vrd_make_request	./bestio/ramdisk.c	/^static blk_qc_t  vrd_make_request(struct request_queue *q, struct bio *bio)$/;"	f	file:
+vrd_open	./bestio/ramdisk.c	/^static int vrd_open(struct block_device *inode, fmode_t filp)$/;"	f	file:
+vrd_queue	./dmbd_main.c	/^	struct request_queue *vrd_queue;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::request_queue	file:
+vrd_queue	./dmbd_module/dmbd_main.c	/^	struct request_queue *vrd_queue;$/;"	m	struct:vrd_dev	typeref:struct:vrd_dev::request_queue	file:
+vrd_release	./bestio/ramdisk.c	/^static void vrd_release(struct gendisk *inode, fmode_t filp)$/;"	f	file:
+vrd_set_hook_request	./bestio/ramdisk.c	/^void vrd_set_hook_request(vrd_hook_fn func) $/;"	f
+wait_barrier	./dmbd_module/dmbd_raid1.h	/^	wait_queue_head_t wait_barrier;$/;"	m	struct:dmbd_conf
+wait_barrier	./dmbd_raid1.h	/^	wait_queue_head_t wait_barrier;$/;"	m	struct:dmbd_conf
+wqueue	./dmbd_module/dmbd_raid1.h	/^	wait_queue_head_t wqueue;$/;"	m	struct:dmbd_raid1_thread
+wqueue	./dmbd_raid1.h	/^	wait_queue_head_t wqueue;$/;"	m	struct:dmbd_raid1_thread
+write_mbps	./dmbd_ioctl.h	/^	unsigned long write_mbps;$/;"	m	struct:__anon5
+write_mbps	./dmbd_module/dmbd_ioctl.h	/^	unsigned long write_mbps;$/;"	m	struct:__anon12

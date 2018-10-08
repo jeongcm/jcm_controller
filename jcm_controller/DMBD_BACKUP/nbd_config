@@ -1,0 +1,5 @@
+[generic]
+    listenaddr=192.168.37.155
+    port=1111
+[export]
+    exportname = /dev/bestioa

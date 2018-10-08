@@ -1,0 +1,1 @@
+cmd_/root/jcm_controller/DMBD_BACKUP/bestio/go.o := ld -m elf_x86_64   -r -o /root/jcm_controller/DMBD_BACKUP/bestio/go.o /root/jcm_controller/DMBD_BACKUP/bestio/main.o /root/jcm_controller/DMBD_BACKUP/bestio/ramdisk.o 

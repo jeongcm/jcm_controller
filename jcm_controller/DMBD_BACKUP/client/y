@@ -1,0 +1,1000 @@
+   36  umount nbd_mount/
+   37  rmmod dmbd
+   38  make pclean ;
+   39  rmmod dmbd
+   40  pkill -9 controller
+   41  vim controller.c
+   42  make clean ; make
+   43  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   44  service firewalld stop
+   45  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   46  iptables -i INPUT 1 -p tcp --dport 11111 -j ACCEPT
+   47  iptables -I INPUT 1 -p tcp --dport 11111 -j ACCEPT
+   48  iptables -I OUTPUT 1 -p tcp --dport 11111 -j ACCEPT
+   49  iptables -I INPUT 1 -p tcp --dport 11112 -j ACCEPT
+   50  iptables -I OUTPUT 1 -p tcp --dport 11112 -j ACCEPT
+   51  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   52  who am i
+   53  who
+   54  vim server_config
+   55  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   56  vim dmbd_hb.c
+   57  make clean ; make
+   58  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   59  vim controller.c
+   60  vim dmbd_hb.c
+   61  ls /usr/include/
+   62  vim /usr/include/time.h 
+   63  vim dmbd_hb.c
+   64  vim dmbd_hb.h
+   65  vim json_file.h
+   66  vim dmbd_hb.c
+   67  cd ..
+   68  cd DMBD_BACKUP/
+   69  dnf install ctags
+   70  ctags -R ./
+   71  ls
+   72  vim dmbd_hb.c
+   73  vim /usr/include/time.h 
+   74  uname -r
+   75  vim /usr/include/time.h 
+   76  vim controller.c
+   77  vim dmbd_hb.c
+   78  make clean ; make
+   79  vim dmbd_hb.c
+   80  make clean ; make
+   81  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   82  vim controller.c
+   83  vim dmbd_hb.c
+   84  make clean ; make
+   85  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   86  vim dmbd_hb.c
+   87  vim server_config
+   88  make clean ; make
+   89  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   90  vim server_config
+   91  iptables -I INPUT 1 -p tcp --dport 11114 -j ACCEPT
+   92  iptables -I INPUT 1 -p tcp --dport 11115 -j ACCEPT
+   93  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   94  iptables -I OUTPUT 1 -p tcp --dport 11115 -j ACCEPT
+   95  iptables -I OUTPUT 1 -p tcp --dport 11114 -j ACCEPT
+   96  ./controller 210.119.145.143 /root/DMBD_BACKUP
+   97  service firewalld stop
+   98  vim server_config
+   99  iptables -a INPUT -p tcp --dport 11114 -j ACCEPT
+  100  iptables -A INPUT -p tcp --dport 11114 -j ACCEPT
+  101  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  102  ip a
+  103  vim dmbd_hb.c
+  104  make clean ; make
+  105  vim dmbd_hb.c
+  106  make clean ; make
+  107  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  108  netstat -tnlp
+  109  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  110  vim controller.c
+  111  make clean ; make
+  112  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  113  vim dmbd_hb.c
+  114  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  115  make clean ; make
+  116  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  117  iptables -I INPUT 1 -p tcp --dport 11114 -j ACCEPT
+  118  iptables -I INPUT 1 -p tcp --dport 11115 -j ACCEPT
+  119  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  120  vim dmbd_hb.c
+  121  make clean ; make
+  122  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  123  ls
+  124  vim dmbd_hb.c
+  125  make clean ; make
+  126  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  127  vim dmbd_hb.c
+  128  make clean ; make
+  129  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  130  vim dmbd_hb.c
+  131  make clean ; make
+  132  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  133  vim dmbd_hb.c
+  134  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  135  vim server_config 
+  136  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  137  vim dmbd_hb.c
+  138  make clean ; make
+  139  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  140  vim dmbd_hb.c
+  141  make clean ; make
+  142  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  143  vim dmbd_hb.c
+  144  make clean ; make
+  145  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  146  ls
+  147  vim dmbd_hb.c
+  148  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  149  ls
+  150  vim dmbd_hb.c
+  151  make clean ; make
+  152  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  153  vim server_config
+  154  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  155  vim server_config
+  156  vim dmbd_hb.c
+  157  vim server_config
+  158  make clean ; make
+  159  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  160  vim server_config
+  161  vim dmbd_hb.h
+  162  make clean ; make
+  163  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  164  vim dmbd_hb.h
+  165  vim dmbd_hb.c
+  166  make clean ; make
+  167  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  168  vim dmbd_hb.c
+  169  make clean ; make
+  170  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  171  vim dmbd_hb.c
+  172  make clean ; make
+  173  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  174  vim dmbd_hb.c
+  175  make clean ; make
+  176  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  177  vim dmbd_hb.c
+  178  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  179  vim dmbd_hb.c
+  180  make clean ; make
+  181  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  182  vim dmbd_hb.c
+  183  make clean ; make
+  184  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  185  vim dmbd_hb.c
+  186  vim /etc/sysconfig/nfs
+  187  cat server_config
+  188  firewall-cmd --permanent --add-port 7431/udp
+  189  service firewalld start
+  190  firewall-cmd --permanent --add-port 7431/udp
+  191  firewall-cmd --permanent --add-port 1234/tcp
+  192  firewall-cmd --permanent --add-port 1235/tcp
+  193  firewall-cmd --permanent --add-port 1111/tcp
+  194  firewall-cmd --permanent --add-port 1112/tcp
+  195  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  196  service firewalld stop
+  197  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  198  vim dmbd_hb.c
+  199  make clean ; make
+  200  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  201  vim dmbd_hb.c
+  202  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  203  make clean ; make
+  204  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  205  vim dmbd_hb.c
+  206  make clean ; make
+  207  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  208  vim dmbd_hb.c
+  209  make clean ; make
+  210  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  211  vim dmbd_hb.c
+  212  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  213  vim dmbd_hb.c
+  214  make clean ; make
+  215  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  216  vim dmbd_hb.c
+  217  make clean ; make
+  218  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  219  vim dmbd_hb.c
+  220  make clean ; make
+  221  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  222  vim controller.c
+  223  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  224  make clean ; make
+  225  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  226  netstat -tnlp
+  227  pkill -9 controller
+  228  dmesg
+  229  ls
+  230   cd..
+  231  ls
+  232  cd ..
+  233  ls
+  234  cd test/
+  235  ls
+  236  cd ..
+  237  cd jh/
+  238  ls
+  239  cd ..
+  240  cd workspace/
+  241  ls
+  242  cd sendfile/
+  243  ls
+  244  cd c
+  245  ls
+  246  cd ..
+  247  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  248  cd DMBD_BACKUP/
+  249  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  250  lsmod | grep go
+  251  lsmod | grep dmb
+  252  lsmod | grep dmbb
+  253  lsmod | grep dmbd
+  254  dmesg
+  255  ls
+  256  netstat -tnlp
+  257  pkill -9 controller
+  258  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  259  dmesg
+  260  vim server_config
+  261  iptables -I INPUT 1 -p tcp --dport 1234 -j ACCEPT
+  262  ping 8.8.8.8
+  263  ping 192.168.1.3
+  264  ping 192.168.1.2
+  265  ping 210.119.145.143
+  266  ifconfig
+  267  ifconfig enp130s0f0 down
+  268  ping 210.119.145.143
+  269  ping 192.168.1.3
+  270  ping 192.168.1.2
+  271  ifconfig enp130s0f0 up
+  272  ping 192.168.1.2
+  273  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  274  dmesg
+  275  reboot
+  276  dmesg
+  277  netstat -tnlp
+  278  cd DMBD_BACKUP/
+  279  vim server_config
+  280  vim dmbd_hb.c
+  281  make clean ; make
+  282  vim dmbd_hb.c
+  283  make clean ; make
+  284  vim dmbd_hb.c
+  285  make clean ; make
+  286  vim dmbd_hb.c
+  287  make clean ; make
+  288  vim dmbd_hb.c
+  289  make clean ; make
+  290  cat hb_st
+  291  cat hb_state
+  292  mkfs.ext4 /dev/dmbd
+  293  ls nbd_mount/
+  294  cat hb_state 
+  295  dmesg
+  296  cat hb_state 
+  297  umount nbd_mount/
+  298  rmmod  dmbd
+  299  make pclean;
+  300  netstat -tnlp
+  301  mkfs.ext4 /dev/dmbd
+  302  cat hb_state
+  303  pkill -9 controller
+  304  umount nbd_mount/
+  305  rmmod dmbd
+  306  make pclean
+  307  rmmod dmbd
+  308  cat hb_state
+  309  ip a
+  310  netstat -tnlp
+  311  ifconfig
+  312  ping 192.168.1.2
+  313  vim dmbd_config
+  314  service firewalld stop
+  315  cd DMBD_BACKUP/
+  316  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  317  ls
+  318  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  319  lsmod |grep go
+  320  cd bestio/
+  321  insmod go.ko memory_size=1024 back_major=8 back_minor=32
+  322   Invalid module format
+  323  modprobe go.ko memory_size=1024 back_major=8 back_minor=32
+  324  insmod go.ko memory_size=1024 back_major=8 back_minor=32
+  325  uname -a
+  326  uname -r
+  327  vi /etc/grub.conf
+  328  vim /etc/grub2.cfg
+  329  grep ^menuentry /boot/grub2/grub.cfg | cut -d """ -f2
+  330  grep ^menuentry /boot/grub2/grub.cfg
+  331  grub2-set-default "Fedora (4.13.5-200.fc.26.x86_64) 26 (Server Edition)
+  332  "
+  333  grub2-editenv list
+  334  grub2-mkconfig -o /boot/grub2/grub.cfg
+  335  reboot
+  336  uname -r
+  337  grub2-editenv list
+  338  uname -a
+  339  grub2-editenv list
+  340  grub2-set-default "Fedora(4.13.5-200.fc.26.x86_64)26(Server Edition)
+  341  "
+  342  grub2-editenv list
+  343  reboot
+  344  uname -r
+  345  reboot
+  346  uname -r
+  347  grub2-editenv list
+  348  grep ^menuentry /boot/grub2/grub.cfg
+  349  grub2-editenv list
+  350  cd DMBD_BACKUP/
+  351   Invalid module format
+  352  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  353  ping 192.168.1.1
+  354  cd DMBD_BACKUP
+  355  ls
+  356  vim dmbd_hb.c
+  357  ip route
+  358  ping 210.119.145.1
+  359  vim server_config
+  360  vim dmbd_config
+  361  cp server_config dmbd
+  362  cp server_config /root/DMBD_BACKUP_2/DMBD_BACKUP/
+  363  cp dmbd_config /root/DMBD_BACKUP_2/DMBD_BACKUP/
+  364  service firewalld stop
+  365  listen 1234
+  366  cd ~
+  367  ls
+  368  cd test/
+  369  ls
+  370  cat out
+  371  clear
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd workspace/
+  376  ls
+  377  cd ..
+  378  ls
+  379  iptables -I INPUT 1 -p tcp --dport 1234 -j ACCEPT
+  380  iptables -I OUTPUT 1 -p tcp --dport 1234 -j ACCEPT
+  381  cat /etc/sysconfig/iptables
+  382  iptables -A INPUT tcp -m tcp --dport 1234 -j ACCEPT
+  383  iptables -A INPUT -p tcp -m tcp --dport 1234 -j ACCEPT
+  384  iptables -A OUTPUT -p tcp -m tcp --dport  -j ACCEPT
+  385  iptables -A OUTPUT -p tcp -m tcp --dport 7431 -j ACCEPT
+  386  iptables -A INPUT -p tcp -m tcp --dport 7431 -j ACCEPT
+  387  service iptables stop
+  388  service iptables start
+  389  /sbin/service iptables status
+  390  systemctl status iptables.service
+  391  cat /etc/sysconfig/iptables
+  392  ifconfig
+  393  dmesg
+  394  rmmod dmbd
+  395  dmesg
+  396  man memcpy
+  397  cd DMBD_BACKUP_2/DMBD_BACKUP/
+  398  ls
+  399  vim json_file.c
+  400  vim controller.c
+  401  cat server_config
+  402  vim json_file.h
+  403  vim json_file.c
+  404  vim dmbd_hb.c
+  405  vim json_file.c
+  406  cat hb_state
+  407  service firewalld stop
+  408  vim server_config
+  409  vim controller.c
+  410  service iptables stop
+  411  service iptables start
+  412  iptables -A INPUT tcp -m tcp --dport 1234 -j ACCEPT
+  413  iptables -A INPUT -p tcp -m tcp --dport 1234 -j ACCEPT
+  414  iptables -A OUTPUT -p tcp -m tcp --dport 1234 -j ACCEPT
+  415  iptables-save
+  416  iptables -I INPUT 1 -p tcp --dport 1234 -j ACCEPT
+  417  iptables -I OUTPUT 1 -p tcp --dport 1234 -j ACCEPT
+  418  iptables-save
+  419  iptables-save | grep 1234
+  420  iptables -I OUTPUT 1 -p tcp --dport 7431 -j ACCEPT
+  421  iptables -I INPUT 1 -p tcp --dport 7431 -j ACCEPT
+  422  service firewalld stop
+  423  iptables -n -L
+  424  iptables -I OUTPUT 1 -p tcp --dport 7432 -j ACCEPT
+  425  iptables -I INPUT 1 -p tcp --dport 7432 -j ACCEPT
+  426  iptables -I OUTPUT 1 -p tcp --dport 1235 -j ACCEPT
+  427  iptables -I INTPUT 1 -p tcp --dport 1235 -j ACCEPT
+  428  iptables -I INPUT 1 -p tcp --dport 1235 -j ACCEPT
+  429  iptables-save
+  430  ls
+  431  ifconfig
+  432  ifconfig enp130s0f0 down
+  433  ifconfig enp130s0f1 down
+  434  ifconfig
+  435  ping 210.119.145.143
+  436  systemctl status iptables.service
+  437  systemctl stop iptables.service
+  438  systemctl status iptables.service
+  439  systemctl status firewalld.service
+  440   iptables -A INPUT -p tcp --dport 1235 -j ACCEPT
+  441   iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  442   iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  443   iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  444   iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  445   iptables -A OUTPUT -p tcp --dport 1235 -j ACCEPT
+  446   iptables -A INPUT -p tcp --dport 7432 -j ACCEPT
+  447   iptables -A OUTPUT -p tcp --dport 7432 -j ACCEPT
+  448  cat hb_state
+  449  vim controller.c
+  450  netstat -tnlp
+  451  vim controller.c
+  452  vim json_file.c
+  453  vim controller.c
+  454  rmmod dmbd
+  455  iptables -I INPUT -p tcp --dport 1111 -j ACCEPT
+  456  iptables -I OUTPUT -p tcp --dport 1111 -j ACCEPT
+  457  iptables -I INPUT -p tcp --dport 1112 -j ACCEPT
+  458  iptables -I OUTPUT -p tcp --dport 1112 -j ACCEPT
+  459  netstat -tnlp
+  460  ls
+  461  mkfs.ext4 /dev/dmbd
+  462  ls nbd_mount/
+  463  umount nbd_mount/
+  464  make pclean;
+  465  rmmod dmbd
+  466  mkfs.ext4 /dev/dmbd
+  467  ls
+  468  ls nbd_mount/
+  469  pwd
+  470  ls nbd_mount/
+  471  cat hb_state
+  472  ls
+  473  pwd
+  474  rm dmbd_backup.tar.gz
+  475  rm dmbd.tar.gz
+  476  ls
+  477  rm client
+  478  rm client.c
+  479  rm 'Microsoft Office 2013.iso'
+  480  cd nbd_mount/
+  481  ls
+  482  cd ,,
+  483  cd ..
+  484  cd mount/
+  485  ls
+  486  rm 'Microsoft Office 2013.iso'
+  487  cd ..
+  488  umount mount/
+  489  rmmod dmbd
+  490  make pclean ;
+  491  netstat -tnlp
+  492  cd ..
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd DMBD_BACKUP
+  497  l
+  498  ls
+  499  cd client/
+  500  ls
+  501  vim client.c
+  502  pwd
+  503  dmesg
+  504  who am i
+  505  ls
+  506  pwd
+  507  ls
+  508  dmesg
+  509  systemctl status iptalbes
+  510  systemctl status iptalbe
+  511  systemctl status iptable
+  512  systemctl status iptables
+  513  ip a
+  514  ls
+  515  cd /home/
+  516  ls
+  517  cd /root/DMBD_BACKUP
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd /root/DMBD_BACKUP2
+  522  ls
+  523  cd /root/DMBD_BACKUP_2
+  524  ls
+  525  cd DMBD_BACKUP/
+  526  ls
+  527  lsblk
+  528  fdisk -l
+  529  dmesg
+  530  ip a
+  531  fdisk -l
+  532  dmesg
+  533  dmesg -C
+  534  mkfs.ext4 /dev/dmbd 
+  535  ls
+  536  mount /dev/dmbd mount
+  537  cd mount
+  538  ll
+  539  cd ..
+  540  fdisk -l
+  541  cd mount
+  542  ll
+  543  diff Microsoft\ Office\ 2013.iso ../Microsoft\ Office\ 2013.iso 
+  544  dmesg
+  545  diff Microsoft\ Office\ 2013.iso ../Microsoft\ Office\ 2013.iso 
+  546  fdisk -l
+  547  ls
+  548  cd ..
+  549  ls
+  550  cat nbd_mount/
+  551  cd ..
+  552  ls
+  553  cd ..
+  554  ls
+  555  cd dmbd
+  556  ls
+  557  cd /home/dmbd
+  558  ls
+  559  cd jcm/
+  560  ls
+  561  make
+  562  cd ..
+  563  ls
+  564  cd ..
+  565  ll
+  566  cd dmbd_db
+  567  ls
+  568  cd ..
+  569  ls
+  570  cd dmbd
+  571  ls
+  572  cd jcm/
+  573  ls
+  574  make
+  575  vim vrd_2018_04_18.c 
+  576  make
+  577  insmod vrd_2018_04_18.ko dev1=/dev/bestioa dev2=/dev/sdc
+  578  ls
+  579  mount /dev/jcma mount
+  580  ls
+  581  cd mount
+  582  ll
+  583  diff Microsoft\ Office\ 2013.iso /root/DMBD_BACKUP_2/DMBD_BACKUP/Microsoft\ Office\ 2013.iso 
+  584  cd ..
+  585  umount
+  586  umount mount
+  587  rmmod vrd_2018_04_18 
+  588  ls
+  589  cd DMBD_BACKUP_2/
+  590  ls
+  591  cd DMBD_BACKUP/
+  592  ls
+  593  vim dmbd_hb.c
+  594  vim controller.c
+  595  vim dmbd_hb.c
+  596  vim controller.c
+  597  vim json_file.c
+  598  vim client/.c
+  599  vim client.c
+  600  cd client/
+  601  ls
+  602  vim client.c
+  603  cd ..
+  604  vim controller.c
+  605  ls
+  606  vim controller.c
+  607  vim dmbd_hb.c
+  608  vim json_file.c
+  609  vim client/.c
+  610  vim client/client.c
+  611  uname -r
+  612  shutdown -h now
+  613  ls
+  614  cd /
+  615  ls
+  616  cd 
+  617  ls
+  618  cd /home/
+  619  ls
+  620  ifconfig
+  621  cd /
+  622  ls
+  623  cd
+  624  l;s
+  625  ls
+  626  cd DMBD_BACKUP
+  627  ls
+  628  insmod bestio/go.ko memory_size=1024 back_major=8 backminor=32
+  629  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  630  reboot
+  631  kls
+  632  cd DMBD_BACKUP
+  633  ls
+  634  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  635  fdisk -l
+  636  modprobe nbd
+  637  service firewalld stop
+  638  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  639  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  640  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  641  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  642  make clean; make
+  643  ifconfig
+  644  ifconfigifconfig
+  645  ifconfig
+  646  ls
+  647  cat server_config 
+  648  ls
+  649  ifconfig
+  650  ls /dev/
+  651  ifconfig
+  652  reboot
+  653  ks
+  654  ls
+  655  cd /DM
+  656  cd DMBD_BACKUP
+  657  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  658  modprobe nbd
+  659  service firewalld stop
+  660  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  661  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  662  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  663  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  664  make clean
+  665  make
+  666  ifconfig
+  667  ./controller 192.168.1.2 /root/DMBD_BACKUP
+  668  vi server_config 
+  669  ./controller 192.168.1.2 /root/DMBD_BACKUP
+  670  reboot
+  671  ifconfig
+  672  reboot
+  673  cd DMBD_BACKUP
+  674  ls
+  675  vi server_config 
+  676  ifconfig
+  677  vi server_config 
+  678  ls
+  679  insmod bestio/go.ko memory=1024 back_major=8 back_minor=32
+  680  fdisk -l
+  681  insmod bestio/go.ko memory=1024 back_major=8 back_minor=32
+  682  reboot
+  683  ls
+  684  cd DMBD_BACKUP
+  685  ls
+  686  vi server_config 
+  687  ifconfig
+  688  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  689  fdisk -l
+  690  modprobe nbd
+  691  service firewalld stop
+  692  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  693  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  694  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  695  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  696  make clean
+  697  make
+  698  ./controller 210.119.145.143 /root/DMBD_BACKUP
+  699  vi ifconfig
+  700  ifconfig
+  701  vi /etc/sysconfig/network-scripts/ifcfg-enp3s0f0
+  702  systemctl restart network.service
+  703  ifconfig
+  704  reboot
+  705  ifconfig
+  706  ifconfig
+  707  cd 
+  708  cd DMBD_BACKUP
+  709  ls
+  710  vi server_config 
+  711  ifconfig
+  712  vi server_config 
+  713  insmod bestio/go.ko memory_size=2014 back_major=8 back_minor=32
+  714  fdisk -l
+  715  lsmod
+  716  rmmod go
+  717  insmod bestio/go.ko memory_size=1014 back_major=8 back_minor=32
+  718  fdisk -l
+  719  rmmod go
+  720  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  721  fdisk -l
+  722  modprobe nbd
+  723  service firewalld stop
+  724  iptables -A INPUT -p tcp -dport 1234 -j ACCEPT
+  725  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  726  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  727  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  728  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  729  make clean
+  730  make
+  731  ./controller 192.168.0.101 /root/DMBD_BACKUP
+  732  ls
+  733  cd client/
+  734  ls
+  735  cd ..
+  736  ls
+  737  cd client/
+  738  ls
+  739  vi dmbd_config
+  740  cd ..
+  741  ls
+  742  vi dmbd_config
+  743  reboot
+  744  cd DMBD_BACKUP
+  745  vi server_config 
+  746  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  747  fdisk -l
+  748  modprobe nbd
+  749  service firewalld stop
+  750  iptables -A INPUT -p tcp --dport 1235 -j ACCEPT
+  751  iptables -A OUTPUT -p tcp --dport 1235 -j ACCEPT
+  752  iptables -A INPUT -p tcp --dport 7432 -j ACCEPT
+  753  iptables -A OUTPUT -p tcp --dport 7432 -j ACCEPT
+  754  make clean
+  755  make
+  756  ./controller 192.168.0.101 /root/DMBD_BACKUP
+  757  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  758  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  759  iptables -A INPUT -p tcp --dport 1235 -j ACCEPT
+  760  iptables -A OUTPUT -p tcp --dport 1235 -j ACCEPT
+  761  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  762  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  763  iptables -A INPUT -p tcp --dport 7432 -j ACCEPT
+  764  iptables -A OUTPUT -p tcp --dport 7432 -j ACCEPT
+  765  ifconfig
+  766  vi server_config 
+  767  ./controller 192.168.0.101 /root/DMBD_BACKUP
+  768  ifconfig
+  769  ifconfig enp130s0f0 down
+  770  ./controller 192.168.0.101 /root/DMBD_BACKUP
+  771  ip route
+  772  server1
+  773  ifconfig
+  774  ping 192.168.0.101
+  775  cd DMBD_BACKUP_2/
+  776  cd DMBD_BACKUP/
+  777  ls
+  778  vim controller.c
+  779  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  780  ls
+  781  netstat -tnlp
+  782  dmesg
+  783  clear
+  784  pwd
+  785  ls
+  786  vi server_config 
+  787  ifconfig
+  788  ping 192.168.0.101
+  789  ifconfig enp130s0f0 up
+  790  ifconfig
+  791  vi server_config 
+  792  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  793  ls
+  794  cd client/
+  795  ls
+  796  ./client 192.168.0.102
+  797  ls
+  798  fdisk -l
+  799  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  800  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 -s
+  801  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  802  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  803  iptables -A INPUT -p tcp --dport 7432 -j ACCEPT
+  804  iptables -A OUTPUT -p tcp --dport 7432 -j ACCEPT
+  805  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  806  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  807  iptables -A INPUT -p tcp --dport 1235 -j ACCEPT
+  808  iptables -A OUTPUT -p tcp --dport 1235 -j ACCEPT
+  809  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  810  ./client -i 192.168.0.101 -p 1234 -m linear -c 1024 -s
+  811  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  812  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 -s
+  813  cd ..
+  814  vi dmbd_config
+  815  ifconfig
+  816  ls /dev/
+  817  ifconfig
+  818  ls
+  819  netstat -tnlp
+  820  pkill -9 controller
+  821  ifconfig enp130s0f0 down
+  822  ls
+  823  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  824  cd client/
+  825  ls
+  826  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 -s
+  827  lsmod | grep dmbd
+  828  rmmod dmbd
+  829  netstat -tnlp
+  830  ls
+  831  cd ..
+  832  pkill -9 controller
+  833  rmmod dmbd
+  834  reboot
+  835  ifconfig
+  836  cd DMBD_BACKUP_2/DMBD_BACKUP/
+  837  ls
+  838  vim server_config
+  839  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  840  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  841  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  842  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  843  service firewalld stop
+  844  ifconfig enp130s0f0 down
+  845  ifconfig enp130s0f0 up
+  846  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  847  netstat -tnlp
+  848  cd client/
+  849  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 -s
+  850  dmesg
+  851  uname -r
+  852  lsmod  | grep dmbd
+  853  ls /boot/grub2/grub.cfg 
+  854  vi /boot/grub2/grub.cfg 
+  855  reboot
+  856  uname -r
+  857  cd DMBD_BACKUP_2/
+  858  ls
+  859  cd DMBD_BACKUP/
+  860  ls
+  861  vi server_config 
+  862  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  863  fdisk -l
+  864  ifconfig
+  865  ifconfig enp130s0f0 down
+  866  ifconfig enp130s0f0 up
+  867  modprobe nbd
+  868  service firewalld stop
+  869  ifconfig
+  870  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  871  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  872  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  873  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  874  make clean
+  875  make
+  876  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  877  dmesg
+  878  cd client/
+  879  ls
+  880  lsmod | grep dmbd
+  881  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  882  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 -s
+  883  ./client -i 192.168.0.101 -p 1234 -m linear -c 1024 -s
+  884  lsmod | grep dmbd
+  885  iptables -A INPUT -p tcp --dport 1235 -j ACCEPT
+  886  iptables -A OUTPUT -p tcp --dport 1235 -j ACCEPT
+  887  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  888  iptables -A INPUT -p tcp --dport 7432 -j ACCEPT
+  889  iptables -A OUTPUT -p tcp --dport 7432 -j ACCEPT
+  890  dmesg
+  891  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  892  uname -r
+  893  reboot
+  894  uname -r
+  895  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  896  cd DMBD_BACKUP_2/DMBD_BACKUP/
+  897  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  898  fdisk -l
+  899  ifconfig
+  900  modprobe nbd
+  901  service firewalld stop
+  902  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  903  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  904  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  905  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  906  make clean
+  907  make
+  908  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  909  cd client/
+  910  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  911  ifconfig
+  912  ifconfig enp130s0f0 down
+  913  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  914  ./client -i 192.168.0.102 -p 1234 -m linear -c 1025 -s
+  915  ifconfig
+  916  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  917  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 -s
+  918  ./client -i 192.168.0.102 -p 1234 -m linear -c 1024 -s
+  919  ls
+  920  cd DMBD_BACKUP_2/
+  921  ls
+  922  cd DMBD_BACKUP/
+  923  ls
+  924  cat server_config
+  925  ip a
+  926  clear
+  927  ip a
+  928  clear
+  929  cat server_config
+  930  cat dmbd_config
+  931  ls
+  932  vim dmbd_config
+  933  vim dmbd_config_backup
+  934  rm dmbd_config
+  935  cp dmbd_config_backup dmbd_config
+  936  vim dmbd_config
+  937  vim controller.c
+  938  pwd
+  939  vim controller.c
+  940  make clean ; make
+  941  service firewalld stop
+  942  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+  943  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+  944  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+  945  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+  946  ifconfig enp130s0f0 down
+  947  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+  948  ifconfig enp130s0f0 up
+  949  modprobe nbd
+  950  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  951  vim dmbd_hb.c
+  952  vim controller.c
+  953  vim dmbd_hb.c
+  954  make clean ; make
+  955  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  956  vim dmbd_config
+  957  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  958  lsmod | grep dmbd
+  959  cd dmbd_module/
+  960  ls
+  961  make clean ; make
+  962  cd ..
+  963  ip a
+  964  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  965  make pclean ;
+  966  rmmod dmbd
+  967  vim controller.c
+  968  make clean ; make
+  969  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+  970  netstat -tnlp
+  971  ls
+  972  vi dmbd_config
+  973  ls
+  974  make pclean ;
+  975  rmmod dmbd
+  976  pkill -9 controller
+  977  shutdown now
+  978  ls
+  979  cd DMBD_BACKUP_2/
+  980  ls
+  981  cd DMBD_BACKUP/
+  982  ls
+  983  vim client/
+  984  cd client/
+  985  ls
+  986  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 –s
+  987  vim client.c
+  988  make clean ; make
+  989  ./client -i 192.168.0.102 -p 1235 -m linear -c 1024 –s
+  990  ls
+  991  pwd
+  992  ./client -i 192.168.0.101 -p 1234 -m linear -c 1024 –s
+  993  ./client -i 192.168.0.101 -p 1234 -m linear -c 1024 -s
+  994  pwd
+  995  ifconfig
+  996  ./client -i 192.168.0.101 -p 1234 -m linear -c 1024 -s
+  997  netstat -tnlp
+  998  make pclean
+  999  ls
+ 1000  cd DMBD_BACKUP_2/
+ 1001  ls
+ 1002  cd DMBD_BACKUP/
+ 1003  ls
+ 1004  ifconfig
+ 1005  ls
+ 1006  ifconfig enp130s0f0 donw
+ 1007  ifconfig enp130s0f0 down
+ 1008  ifconfig enp130s0f0 up
+ 1009  ls
+ 1010  cd dmbd_module/
+ 1011  ls
+ 1012  make clean ; make
+ 1013  ls
+ 1014  cd ..
+ 1015  ls
+ 1016  vim dmbd_config
+ 1017  ls
+ 1018  clear
+ 1019  vim controller.c
+ 1020  man syslog
+ 1021  ls
+ 1022  ifconfig
+ 1023  ping 192.168.1.2
+ 1024  ls
+ 1025  iptables -A INPUT -p tcp --dport 7431 -j ACCEPT
+ 1026  iptables -A OUTPUT -p tcp --dport 7431 -j ACCEPT
+ 1027  service firewalld stop
+ 1028  insmod bestio/go.ko memory_size=1024 back_major=8 back_minor=32
+ 1029  modprobe nbd
+ 1030  iptables -A INPUT -p tcp --dport 1234 -j ACCEPT
+ 1031  iptables -A OUTPUT -p tcp --dport 1234 -j ACCEPT
+ 1032  ./controller 192.168.0.101 /root/DMBD_BACKUP_2/DMBD_BACKUP
+ 1033  cd client/
+ 1034  ls
+ 1035  history >> y

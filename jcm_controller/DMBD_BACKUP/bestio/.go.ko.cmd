@@ -1,0 +1,1 @@
+cmd_/root/jcm_controller/DMBD_BACKUP/bestio/go.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/jcm_controller/DMBD_BACKUP/bestio/go.ko /root/jcm_controller/DMBD_BACKUP/bestio/go.o /root/jcm_controller/DMBD_BACKUP/bestio/go.mod.o ;  true

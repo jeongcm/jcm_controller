@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BRK	./main.c	10;"	d	file:
+BUILDSYSTEM_DIR	./Makefile	/^BUILDSYSTEM_DIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+TARGET_MODULE	./Makefile	/^TARGET_MODULE := go$/;"	m
+VRD_DEV_MAJOR	./ramdisk.c	14;"	d	file:
+VRD_DEV_NAME	./ramdisk.c	13;"	d	file:
+VRD_MAX_PARTITON	./ramdisk.c	19;"	d	file:
+VRD_SECTOR_SIZE	./ramdisk.c	16;"	d	file:
+VRD_SECTOR_TOTAL	./ramdisk.c	18;"	d	file:
+VRD_SIZE	./ramdisk.c	17;"	d	file:
+__RAMDISK__	./ramdisk.h	2;"	d
+back_major	./main.c	/^static unsigned int back_major = 0;$/;"	v	file:
+back_minor	./main.c	/^static unsigned int back_minor = 0;$/;"	v	file:
+backup	./main.c	/^struct backup backup;$/;"	v	typeref:struct:backup
+backup	./main.c	/^struct backup {$/;"	s	file:
+backup_clear_queue	./main.c	/^int backup_clear_queue(struct backup_list *queue)$/;"	f
+backup_device	./main.c	/^struct backup_device {$/;"	s	file:
+backup_exit	./main.c	/^int backup_exit(void)$/;"	f
+backup_init	./main.c	/^static void backup_init(void)$/;"	f	file:
+backup_list	./main.c	/^struct backup_list {$/;"	s	file:
+bdev	./main.c	/^	struct block_device *bdev;$/;"	m	struct:backup_device	typeref:struct:backup_device::block_device	file:
+bestio_backup_bio	./main.c	/^void bestio_backup_bio(struct bio *bio)$/;"	f
+bestio_backup_end_request	./main.c	/^static void bestio_backup_end_request(struct bio *bio)$/;"	f	file:
+bestio_backup_thread	./main.c	/^static int bestio_backup_thread(void * data)$/;"	f	file:
+bestio_condition	./main.c	/^	unsigned long bestio_condition;$/;"	m	struct:backup	file:
+bestio_q_bio	./main.c	/^int bestio_q_bio(struct bio *bio, struct backup *meta_data)$/;"	f
+bio	./main.c	/^	struct bio *bio;$/;"	m	struct:backup_list	typeref:struct:backup_list::bio	file:
+data	./ramdisk.c	/^	unsigned char             *data;$/;"	m	struct:__anon1	file:
+dev_size	./main.c	/^	unsigned long dev_size;$/;"	m	struct:backup_device	file:
+device	./main.c	/^	struct backup_device device;$/;"	m	struct:backup	typeref:struct:backup::backup_device	file:
+device	./ramdisk.c	/^static vrd_device                    device;$/;"	v	file:
+gd	./ramdisk.c	/^	struct gendisk              *gd;$/;"	m	struct:__anon1	typeref:struct:__anon1::gendisk	file:
+go-objs	./Makefile	/^go-objs := main.o ramdisk.o$/;"	m
+kq_wait_bestio	./main.c	/^	wait_queue_head_t kq_wait_bestio;$/;"	m	struct:backup	file:
+list	./main.c	/^	struct list_head list;$/;"	m	struct:backup_list	typeref:struct:backup_list::list_head	file:
+major	./main.c	/^	unsigned int major;$/;"	m	struct:backup_device	file:
+memory_size	./main.c	/^static unsigned long memory_size = 0;$/;"	v	file:
+minor	./main.c	/^	unsigned int minor;$/;"	m	struct:backup_device	file:
+my_exit	./main.c	/^module_exit(my_exit);$/;"	v
+my_exit	./main.c	/^static void my_exit(void)$/;"	f	file:
+my_init	./main.c	/^module_init(my_init);$/;"	v
+my_init	./main.c	/^static int my_init(void)$/;"	f	file:
+obj-m	./Makefile	/^obj-m := $(TARGET_MODULE).o$/;"	m
+q_sem_mutex	./main.c	/^	struct semaphore q_sem_mutex;$/;"	m	struct:backup	typeref:struct:backup::semaphore	file:
+queue	./main.c	/^	struct backup_list *queue;$/;"	m	struct:backup	typeref:struct:backup::backup_list	file:
+queue	./ramdisk.c	/^	struct request_queue    *queue;$/;"	m	struct:__anon1	typeref:struct:__anon1::request_queue	file:
+size	./ramdisk.c	/^	unsigned long long size;$/;"	m	struct:__anon1	file:
+thread_task	./main.c	/^	struct task_struct *thread_task;$/;"	m	struct:backup	typeref:struct:backup::task_struct	file:
+vrd_default_hook_request	./ramdisk.c	/^static void vrd_default_hook_request(struct bio* bio)$/;"	f	file:
+vrd_device	./ramdisk.c	/^} vrd_device;$/;"	t	typeref:struct:__anon1	file:
+vrd_exit	./ramdisk.c	/^void vrd_exit(void)$/;"	f
+vrd_fops	./ramdisk.c	/^static struct block_device_operations vrd_fops =$/;"	v	typeref:struct:block_device_operations	file:
+vrd_get_bio_address	./ramdisk.c	/^unsigned char *vrd_get_bio_address(struct bio *bio)$/;"	f
+vrd_hook_fn	./ramdisk.h	/^typedef void (*vrd_hook_fn)(struct bio *bio);$/;"	t
+vrd_hook_request	./ramdisk.c	/^static vrd_hook_fn vrd_hook_request = vrd_default_hook_request;$/;"	v	file:
+vrd_init	./ramdisk.c	/^int vrd_init(char *name, unsigned long long size)$/;"	f
+vrd_ioctl	./ramdisk.c	/^static int vrd_ioctl(struct block_device *inode, fmode_t mode, unsigned int cmd, unsigned long arg)$/;"	f	file:
+vrd_make_request	./ramdisk.c	/^static blk_qc_t  vrd_make_request(struct request_queue *q, struct bio *bio)$/;"	f	file:
+vrd_open	./ramdisk.c	/^static int vrd_open(struct block_device *inode, fmode_t filp)$/;"	f	file:
+vrd_release	./ramdisk.c	/^static void vrd_release(struct gendisk *inode, fmode_t filp)$/;"	f	file:
+vrd_set_hook_request	./ramdisk.c	/^void vrd_set_hook_request(vrd_hook_fn func) $/;"	f

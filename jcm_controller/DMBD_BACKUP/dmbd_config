@@ -1,0 +1,21 @@
+{
+	"remote":[
+	{
+		"ip":"192.168.37.155",
+		"remote_dev" : "/dev/nbd1",
+		"dev_size" : 1024,
+		"nbd_export" : "export",
+		"dmbd_nbd_port": "1111"
+	},
+	{
+		"ip":"192.168.37.158",
+		"remote_dev" : "/dev/nbd0",
+		"dev_size" : 1024,
+		"nbd_export" : "export",
+		"dmbd_nbd_port": "1111"
+	}
+	]
+
+}
+
+
